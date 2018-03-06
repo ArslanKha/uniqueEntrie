@@ -1,0 +1,11 @@
+## IMPORTS GO HERE if required
+
+## END OF IMPORTS 
+
+
+#### YOUR CODE FOR netIncome GOES HERE ####
+def netIncome(currentsalary,tax=0.0):
+    netsalary= 1.0*(currentsalary)-((currentsalary * tax/100.0))*1.0    
+    return netsalary
+
+#### End OF MARKER
